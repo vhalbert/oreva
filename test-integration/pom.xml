@@ -8,7 +8,7 @@
   <parent>
     <groupId>org.jboss.oreva</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1.fuse-760022</version>
+    <version>1.0.1.fuse-760022-redhat-00001</version>
     <relativePath>..</relativePath>
   </parent>
 

@@ -11,7 +11,7 @@
   <parent>
     <groupId>org.jboss.oreva</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.1.fuse-760022</version>
+    <version>1.0.1.fuse-760022-redhat-00001</version>
     <relativePath>..</relativePath>
   </parent>
   
@@ -29,12 +29,8 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-            <Import-Package>
-              *
-            </Import-Package>
-            <Export-Package>
-              org.core4j.*;version=${project.version},
-            </Export-Package>
+            <Import-Package>*</Import-Package>
+            <Export-Package>org.core4j.*;version=${project.version},</Export-Package>
             <Bundle-DocURL>${project.url}</Bundle-DocURL>
             <Bundle-ActivationPolicy>lazy</Bundle-ActivationPolicy>
           </instructions>
@@ -46,7 +42,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.2</version>
+      <version>4.8.2-redhat-1</version>
       <type>jar</type>
       <scope>test</scope>
     </dependency>
