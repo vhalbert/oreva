@@ -4,7 +4,7 @@
 
   <groupId>org.jboss.oreva</groupId>
   <artifactId>parent</artifactId>
-  <version>1.1.1-SNAPSHOT</version>
+  <version>1.1.1.fuse-jdk11-800020</version>
   <packaging>pom</packaging>
 
   <parent>
@@ -109,7 +109,7 @@
     <mockito.version>1.9.0</mockito.version>
     <hsqldb.version>1.8.0.10</hsqldb.version>
     <jersey.version>1.1.5</jersey.version>
-    <cxf.version>2.6.0</cxf.version>
+    <cxf.version>3.3.6.fuse-jdk11-800017</cxf.version>
     <jetty.version>7.5.3.v20111011</jetty.version>
     <httpclient.version>4.2.1</httpclient.version>
     <slf4j.version>1.6.4</slf4j.version>
