@@ -11,7 +11,7 @@
   <parent>
     <groupId>org.jboss.oreva</groupId>
     <artifactId>parent</artifactId>
-    <version>1.1.1.fuse-jdk11-800020</version>
+    <version>1.1.1.fuse-jdk11-800020-redhat-00002</version>
     <relativePath>..</relativePath>
   </parent>
   
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.2</version>
+      <version>4.8.2-redhat-1</version>
       <type>jar</type>
       <scope>test</scope>
     </dependency>
